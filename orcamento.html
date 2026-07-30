@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Solicitar Orçamento — Like5</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-layer" aria-hidden="true"></div>
+
+  <!-- Mesmo cabeçalho -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="index.html#home" class="brand" aria-label="Like5 — Home">
+        <img src="assets/logo.png" alt="Like5" class="logo" />
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Menu principal">
+        <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Abrir menu">
+          <span class="hamburger"></span>
+        </button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html#home" class="nav-link">Home</a></li>
+          <li><a href="index.html#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="index.html#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="index.html#videos" class="nav-link">Vídeos</a></li>
+          <li><a href="index.html#contato" class="nav-link">Contato</a></li>
+          <li><a href="orcamento.html" class="nav-link cta">Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions" role="region" aria-label="Ações rápidas">
+        <a class="icon-btn btn-header-whatsapp" href="https://wa.me/5531999956123?text=Vim%20pelo%20site%20da%20banda!" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.5 3.5L3.5 20.5V24l3.5-.9L21 4.9 20.5 3.5zM17.2 14.7c-.3.8-1.6 1.5-2.2 1.6-.6.1-1 .2-1.8-.2-.8-.4-2.2-1.1-3.5-2.4C8.1 12.8 7.4 11.4 7 10.6 6.7 9.9 6.8 9.4 6.9 8.8 7 8.2 7.3 7.7 7.6 7.4c.3-.3.7-.4 1.1-.4.3 0 .7 0 1 .1.4.1.9.3 1.2.5.3.2.4.4.6.6.2.2.2.3.1.5-.1.2-.3.7-.4.9-.1.1-.2.3-.3.5-.1.2 0 .4.1.6.2.3.6.6 1.1 1 .5.4 1.3.8 2 .9.7.1 1.1.1 1.5.1.5 0 1 .2 1.3.5.3.3.5.8.3 1.6z" fill="#fff"/></svg>
+        </a>
+
+        <a class="icon-btn btn-header-instagram" href="https://instagram.com/like5.banda" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.2A4.8 4.8 0 1 0 16.8 13 4.8 4.8 0 0 0 12 8.2zm5.5-.9a1.1 1.1 0 1 0 1.1 1.1 1.1 1.1 0 0 0-1.1-1.1z" fill="#fff"/></svg>
+        </a>
+
+        <a class="btn btn-primary header-cta" href="orcamento.html" aria-label="Solicite um orçamento">Orçamento</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="orcamento-section" style="padding:8rem 0;min-height:70vh;display:flex;align-items:center;">
+      <div class="container" style="display:flex;justify-content:center;">
+        <div style="width:100%;max-width:920px;background:#fff;border-radius:16px;overflow:hidden;padding:12px;">
+          <!-- Card branco com iframe -->
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvdvfpFZ9DnuyNwyekBYBFpDo0YKOrBToa_Hx80zBrdPLfMw/viewform?usp=header" title="Formulário de Orçamento Like5" style="width:100%;height:72vh;border:0;border-radius:12px;display:block;"></iframe>
+
+          <div style="display:flex;justify-content:center;padding:1rem;">
+            <a class="btn btn-primary" href="https://wa.me/5531999956123?text=Vim%20pelo%20site%20da%20banda!" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-instagram" href="https://instagram.com/like5.banda" target="_blank" rel="noopener" style="margin-left:0.6rem;">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Like5 - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <noscript>
+    <style>
+      .section--fade{opacity:1 !important;transform:none !important}
+      .nav-list{transform:none !important;position:static !important;height:auto !important}
+      .nav-toggle{display:none !important}
+    </style>
+  </noscript>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
